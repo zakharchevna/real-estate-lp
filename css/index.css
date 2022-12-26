@@ -490,7 +490,7 @@ h6 {
    width: 210px;
    height: 11px;
    transform: translate(86.5%, 0px);
-   background: url("./images/icons/how-decor.svg") 0 0  / 100% no-repeat;
+   background: url("../images/icons/how-decor.svg") 0 0  / 100% no-repeat;
 }
 
 .item-how_2:not(:last-child)::after {
