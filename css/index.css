@@ -168,19 +168,11 @@ h6 {
    color: inherit;
 }
 
-.header__menu {}
-
-.menu {}
-
 .menu__list {
    display: flex;
    column-gap: 46px;
    row-gap: 5px;
    flex-wrap: wrap;
-}
-
-.menu__item {
-
 }
 
 .menu__link {
@@ -201,8 +193,6 @@ h6 {
    text-decoration: underline;
 }
 
-.main-block {}
-
 .main-block__container {
    padding-top: 184px;
    padding-bottom: 110px;
@@ -218,7 +208,6 @@ h6 {
    height: 100%;
    left: 67.15%;
 }
-.main-block__body {}
 
 .body-main-block {
    position: relative;
@@ -267,7 +256,6 @@ h6 {
    margin-bottom: 24px;
 }
 
-.content-main-block__form {}
 
 .form-main-block {
    margin-right: -188px;
@@ -316,10 +304,6 @@ h6 {
    min-width: 0;
 }
 
-.slider-main-block {}
-
-.slider-main-block__wrapper {}
-
 .slider-main-block__slide {
    position: relative;
    padding-bottom: 95%;
@@ -358,11 +342,6 @@ h6 {
    display: none;
 }
 
-/* .swiper-button-next {} */
-
-
-.main-block__partners {}
-
 .partners-main-block {
    max-width: 65%;
 }
@@ -381,8 +360,6 @@ h6 {
    align-items: center;
    justify-content: space-between;
 }
-
-.partners-main-block__item {}
 
 .partners-main-block__item img {
    max-width: 100%;
@@ -444,10 +421,6 @@ h6 {
    }
 }
 
-.page__how {}
-
-.how {}
-
 .how__container {
    padding-top: 110px;
    padding-bottom: 110px;
@@ -500,9 +473,6 @@ h6 {
    .how__items {
       padding: 0px 35px;
    }
-}
-
-.how__item {
 }
 
 .item-how {
@@ -596,10 +566,6 @@ h6 {
    }
 }
 
-.page__deals {}
-
-.deals {}
-
 .deals__container {
    padding-top: 110px;
    padding-bottom: 110px;
@@ -668,10 +634,6 @@ h6 {
    }
 }
 
-.deals__tabs {}
-
-.tabs-deals {}
-
 .tabs-deals__nav {
    display: flex;
    flex-wrap: wrap;
@@ -715,8 +677,6 @@ h6 {
    width: 100%;
 }
 
-.tabs-deals__body {}
-
 .tabs-deals__item {
    display: none;
 }
@@ -724,8 +684,6 @@ h6 {
 .tabs-deals__item.active {
    display: block;
 }
-
-.item-tabs {}
 
 .item-tabs__items {
    display: grid;
@@ -784,9 +742,6 @@ h6 {
    transition: transform 0.3s ease 0s;
 }
 
-.page__featured {}
-
-.featured {}
 
 .featured__container {
    padding-top: 110px;
@@ -841,10 +796,6 @@ h6 {
    }
 }
 
-.featured__images {
-   
-}
-
 .images-featured {
    display: grid;
    justify-items: center;
@@ -868,12 +819,6 @@ h6 {
 .featured__content {
    display: flex;
    flex-direction: column;
-}
-
-.content-featured {}
-
-.content-featured__body {
-   
 }
 
 .content-featured__title {
@@ -904,10 +849,6 @@ h6 {
    row-gap: 34px;
    margin-bottom: 54px;
 }
-
-.options-content-featured {}
-
-.options-content-featured__item {}
 
 .options-content-featured__label {
    color: var(--title);
@@ -955,10 +896,6 @@ h6 {
    }
 }
 
-.page__reviews {}
-
-.reviews {}
-
 .reviews__container {
    padding-top: 110px;
    padding-bottom: 110px;
@@ -990,8 +927,6 @@ h6 {
    padding-bottom: 85px;
 }
 
-.reviews__item {}
-
 .item-reviews {
    color: inherit;
    padding: 50px 40px;
@@ -1015,8 +950,6 @@ h6 {
    margin-bottom: 50px;
 }
 
-.item-reviews__author {}
-
 .author-item-reviews {
    display: flex;
    gap: 20px;
@@ -1029,8 +962,6 @@ h6 {
    overflow: hidden;
 }
 
-.author-item-reviews__body {}
-
 .author-item-reviews__name {
    font-weight: 700;
    line-height: 1.375;
@@ -1040,8 +971,6 @@ h6 {
    font-size: 14px;
    line-height: 1.35;
 }
-
-   .reviews__footer {}
 
    .footer-reviews {
       display: flex;
@@ -1067,8 +996,6 @@ h6 {
       justify-content: space-between;
    }
 
-   .partners-footer-reviews__item {}
-
    .footer-reviews__info {
       letter-spacing: 0.01em;
       line-height: 1.5;
@@ -1088,8 +1015,6 @@ h6 {
    .footer-reviews__info a:nth-child(2):hover {
       text-decoration: none;
    }
-
-   .page__subscribe {}
 
    .subscribe {
       background-color: var(--footer-bg);
@@ -1237,8 +1162,6 @@ h6 {
          justify-content: flex-end;
       }
    
-      .menu-footer {}
-   
       .menu-footer__list {
          display: flex;
          column-gap: 45px;
@@ -1246,8 +1169,6 @@ h6 {
          justify-content: center;
          row-gap: 15px;
       }
-   
-      .menu-footer__item {}
    
       .menu-footer__link {
          font-weight: 700;
